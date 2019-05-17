@@ -1,0 +1,67 @@
+/* @import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    /* font-family: 'PT Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#landing-page {
+    background-image: url("../images/river_top_view.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(3px); */
+    /* -webkit-filter: blur(3px); */
+    width: 100%;
+    height: 768px;
+}
+
+#landing-page .overlay {
+    background-color: black;
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+
+#content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#content #introduction {
+    color: #efefef;
+    opacity: 0.9;
+    font-size: 3em;
+    line-height: 80px;
+    margin-top: 10%;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* float: right; */
+    text-align: right;
+}
+
+#content #introduction #name {
+    /* color: #F44336; */
+    color: #0000008f;
+    background-color: #ffffff8a;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+#content #introduction #profession {
+    display: block;
+    font-size: 0.7em;
+    line-height: 35px;
+    padding-right: 10px;
+} 
