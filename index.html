@@ -3,7 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -13,14 +13,16 @@
     <title>hirakjs:)</title>
   </head>
   <body>
-    <div id="intro">
-      <div class="container">
+    <div id="intro" class="page">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-2"></div>
+          <div class="col-md-8 col-sm-12">
             <h2 id="greeting"><i class="icon ion-ios-arrow-forward"></i>_ Hello, world!</h2>
             <h1 id="myname">I'm <span class="my-blue">Hirakjyoti Sarma</span>.</h1>
             <h3 id="profession">I'm a Software Engineer.</h3>
           </div>
+          <div class="col-md-2"></div>
         </div>
 
         <div class="row">
@@ -50,13 +52,51 @@
           </div>
         </div>
 
-        <!-- <div class="row">
+        <div class="row">
           <div class="col-md-12">
-            <input type="text" value="">
+            <div id="show-more">
+              <a href="#experience">
+                <i class="icon ion-ios-arrow-down"></i>
+              </a>
+            </div>
           </div>
-        </div> -->
-
+        </div>
       </div>
+    </div>
+
+    <div id="experience" class="page">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <h2>Experience</h2>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 col-sm-12">
+              <div class="row">
+                  <div class="col-4">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Vantage Circle</a>
+                      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">NITS Mirza</a>
+                      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Springhive Labs</a>
+                    </div>
+                  </div>
+                  <div class="col-8">
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
+                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+      </div>
+
     </div>
 
     <!-- Optional JavaScript -->

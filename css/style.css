@@ -10,15 +10,43 @@ body {
   padding: 0;
 }
 
+.page {
+  /* max-width: 1000px; */
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0px auto;
+  background-color: #001b38;
+  /* color: #b9cae0; */
+  color: #7594bb;
+}
+
 #intro {
-  width: 100%;
+  /* width: 100%;
   min-height: 500px;
   height: auto;
-  overflow: hidden;
-  background-color: #000;
-  color: #a6a6a6;
+  overflow: hidden; */
+  /* background-color: #000;
+  color: #a6a6a6; */
+  /* background-color: #001b38;
+  color: #b9cae0;
   text-align: center;
-  padding: 15% 0;
+  padding: 15% 0 20px; */
+  padding: 200px 0px 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+#experience {
+
+}
+
+#experience h2 {
+  text-align: center;
+  margin: 30px auto;
 }
 
 #greeting, #myname, #profession {
@@ -37,16 +65,67 @@ li {
 
 li a {
   padding: 10px;
-  color: #a6a6a6;
+  /* color: #a6a6a6; */
+  color: #b9cadf;
 }
 
 li a:hover {
   text-decoration: none;
-  color: #fff;
+  /* color: #fff; */
+  /* color: #559df5; */
+  color: #007bff;
 }
 
 li a i {
   font-size: 28px;
+}
+
+#show-more {
+  margin-top: 120px;
+}
+
+#show-more  a i {
+  font-size: 50px;
+  color: #fff;
+}
+
+.nav {
+  border-left: 1px solid;
+}
+
+.nav-pills .nav-link {
+  color: #7594bb;
+}
+/* , .nav-pills .show>.nav-link  */
+.nav-pills .nav-link.active{
+  color: #2196F3;
+  /* background-color: #0a284c; */
+  background-color: transparent;
+  border-left: 3px solid #2196F3;
+  border-radius: 0;
+  margin-left: -2px;
+}
+
+@media (max-width: 767.98px) {
+  h1 { font-size: 1.25rem; }
+  h2 { font-size: 1rem; }
+  h3 { font-size: 0.75rem; }
+}
+
+  /* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 2rem; }
+  h3 { font-size: 1.75rem; }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
 }
 
 /* colors */
