@@ -98,10 +98,11 @@ li a i {
 }
 /* , .nav-pills .show>.nav-link  */
 .nav-pills .nav-link.active{
-  color: #2196F3;
+  /* color: #2196F3; */
+  color: #fff;
   /* background-color: #0a284c; */
   background-color: transparent;
-  border-left: 3px solid #2196F3;
+  border-left: 3px solid #fff/*  #2196F3 */;
   border-radius: 0;
   margin-left: -2px;
 }
