@@ -46,13 +46,13 @@ body {
   filter: hue-rotate(0deg) saturate(0) brightness(10);
 }
 
-#experience {
-
-}
-
 #experience h2 {
   text-align: center;
   margin: 30px auto;
+}
+
+#experience .badge-pill {
+  margin: 5px 0;
 }
 
 #greeting, #myname, #profession {
