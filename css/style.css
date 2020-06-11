@@ -19,9 +19,9 @@ body {
   align-items: flex-start;
   min-height: 100vh;
   margin: 0px auto;
-  background-color: #001b38;
+  background-color: #000;
   /* color: #b9cae0; */
-  color: #7594bb;
+  color: #f3f3f3;
 }
 
 #intro {
@@ -133,6 +133,13 @@ li a i {
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+}
+
+footer {
+  background-color: #000;
+  color: #a3a3a3;
+  padding: 15px;
+  text-align: center;
 }
 
 /* colors */
